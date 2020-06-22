@@ -173,9 +173,9 @@ h4{
             background: white;
           padding: 1rem;
   margin: 2%;
-          -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-          -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-          box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+          -webkit-box-shadow: 0 4px 6px black;
+          -moz-box-shadow: 0 4px 6px black;
+          box-shadow: 0 4px 6px black;
   }
   
   .fronttxt{
@@ -201,23 +201,11 @@ h4{
         width: 80%;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
           margin: 5%;
+        height: 75vh;
         }
-    
-    form h2{
-        font-family: 'Courgette', cursive;
-        text-align: center;
-    /*creates and supports radial gradient*/
-    background: #FFCDB2;
-    background: -moz-radial-gradient(center, #FFCDB2 0%, #FFB4A2 50%, #E5989B 100%);
-    background: -webkit-radial-gradient(center, #FFCDB2 0%, #FFB4A2 50%, #E5989B 100%);
-    background: radial-gradient(ellipse at center, #FFCDB2 0%, #FFB4A2 50%, #E5989B 100%);
-    }
-    
-    .form{
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-    }
+
     
     .button{
       display:flex;
@@ -236,12 +224,22 @@ h4{
     border: none;
     width: 40%;
 
+
+
     /*controls and supports radial gradient*/
 
     background: #FFCDB2;
     background: -moz-radial-gradient(center, #FFCDB2 0%, #FFB4A2 50%, #E5989B 100%);
     background: -webkit-radial-gradient(center, #FFCDB2 0%, #FFB4A2 50%, #E5989B 100%);
     background: radial-gradient(ellipse at center, #FFCDB2 0%, #FFB4A2 50%, #E5989B 100%);
+          }
+
+          button:hover{
+                  /*creates and supports shadowbox*/
+
+    -webkit-box-shadow: 0 4px 6px black;
+    -moz-box-shadow: 0 4px 6px black;
+    box-shadow: 0 4px 6px black;
           }
 /*end*/
 
