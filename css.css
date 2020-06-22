@@ -164,6 +164,31 @@ h2{
   .two{
     flex-direction: row-reverse;
   }
+  
+  .about-card-front{
+            background: white;
+          padding: 1rem;
+  margin: 2%;
+          -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+          -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  }
+  
+  .fronttxt{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+  }
+  
+  .abouttxt{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .about-card-front > img{
+            max-width: 100%;
+          height: auto;
+  }
   /*end*/
 
   /*contact page css*/
@@ -239,6 +264,8 @@ h2{
     height: 300px; /*how?*/
     perspective: 40rem;
   }
+
+  
 
 .flip-card-front{
     background: white;
