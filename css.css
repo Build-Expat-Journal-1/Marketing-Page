@@ -411,9 +411,7 @@ h4{
       flex-direction: column;
       align-items: center;
   }
-.container{
-    width: 100%;
-}
+
   .form{
       grid-template-columns: auto auto;
   }
