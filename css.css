@@ -141,6 +141,10 @@ h2{
     line-height: 1.5em;
 }
 
+h4{
+    font-family: 'Courgette', cursive;
+}
+
 
 
 .banner img{
@@ -280,6 +284,7 @@ h2{
 .flip-card-back{
     font-family: 'Calligraffitti', cursive;
     color: #28262B;
+    font-weight: bold;
     background-color: #bbb;
     transform: rotateY(180deg);
     }
@@ -401,6 +406,16 @@ h2{
     top: 40vh;
   
     
+  }
+  .one, .two{
+      flex-direction: column;
+      align-items: center;
+  }
+.container{
+    width: 100%;
+}
+  .form{
+      grid-template-columns: auto auto;
   }
     h1{
       font-size: 1.5rem;
