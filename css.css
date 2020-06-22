@@ -169,10 +169,11 @@ h2{
   /*contact page css*/
 
   .submission{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    }
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+          margin: 5%;
+        }
     
     form h2{
         font-family: 'Courgette', cursive;
@@ -344,9 +345,44 @@ h2{
     width: 3rem;
 }
 
+/*media queries*/
+@media (max-width: 800px){
+  
+    .flip-card{
+      height: 200px;
+    }  
+    .fronttxt h2{
+    font-size: 1.5rem;
+  }
+}
 
-
-
-
-
-
+@media(max-width: 500px){
+  
+    .container{
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+  }
+    .flip-card{
+      height: 350px;
+    }
+    
+    .banner img{
+      height: 30vh;
+  }
+  .bannertext{
+    top: 40vh;
+  
+    
+  }
+    h1{
+      font-size: 1.5rem;
+    }
+    h2{
+      font-size: .8rem;
+    }
+    h3{
+      font-size: .7rem;
+    }
+    
+  }
