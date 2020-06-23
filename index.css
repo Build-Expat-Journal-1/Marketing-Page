@@ -51,11 +51,11 @@ background-color: #6D6875;
 header {
     background-color: #FFCDB2;
     background: linear-gradient(to bottom, #B38D97 0%, #FFB4A2 100%);
-    padding-bottom: 1%;
+    padding: 1% 0;
 }
 div .header-icon {    
     width: 100%;
-    height: 50px;
+    height: 4rem;
     text-align: center;
     margin: 1 38%;
 }
@@ -69,6 +69,9 @@ nav .links {
     text-align: center;
     font-size: 1.5rem;
 }
+.links a{
+    padding: 0 1%;
+}
 .title-section {
     width: 100%;
     height: 400px;
@@ -80,23 +83,33 @@ nav .links {
 }
 .title-section h1{
     align-items: center;
+    font-size: 4rem;
+}
+.title-section h3{
+    align-items: center;
+    font-size: 1.1rem;
+    margin-top: 0.5%;
+}
+.title-text{
+    text-align: center;
+    padding-top: 4%;
+    color: white;    
+    text-shadow: 1px 1px black;
 }
 .photo-section {
     display: flex;
     flex-wrap: wrap;
     margin: 5% 10%;
     width: 80%;
-    height: 700px;
     padding-top: 1%;
     text-align: center;
     background-color: rgb(47, 47, 47);
-    color: white;    
-    
+    color: white;
 }
 .photoGrid {
     display: flex;
     flex-wrap: wrap;
-    width: 21%;
+    width: 22%;
     justify-content: center;
     margin: 1% auto;
 }
@@ -111,28 +124,52 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     width: 100%;
-    background-color: #B5838D;
-    background: linear-gradient(to top, #B5838D 0%, #E5989B 100%);
+    background-color: #E5989B;
 }
 .footer-div {
-    height: 4vh;
+    height: 3%;
     width: 15%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 .icons{    
     all: initial;
-    background: linear-gradient(to top, #B5838D 50%, #E5989B 180%);
     width: 100%;
     display: flex;
     justify-content: center;
     height: 100%;
+    align-items: center;
 }
-.icons img{    
-    background: linear-gradient(to top, #B5838D 0%, #E5989B 180%);
-    width: 80%;
+.icons img{
     display: flex;
-    justify-content: center;
-    height: 75%;
-    padding: 0 10%;
+    justify-content: space-evenly;
+    background-color:#E5989B;
+    width: 80%;
+}
+a {
+    text-decoration: none;
+}
+@media (max-width: 575.98px) {
+    .photo-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5% 10%;
+        width: 80%;
+        padding-top: 1%;
+        text-align: center;
+        background-color: rgb(47, 47, 47);
+        color: white;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
 }
