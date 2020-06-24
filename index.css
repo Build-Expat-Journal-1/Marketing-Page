@@ -92,18 +92,19 @@ nav .links {
     font-size: 4rem;
     margin-top: 8%;
     padding-left: 1.1%;
+    text-shadow: 3px 3px black;
 }
 .title-section h3{
     align-items: center;
     font-size: 1.3rem;
     margin-top: 0.5%;
     padding-left: 1.1%;
+    text-shadow: 1px 1px black;
 }
 .title-text{
     text-align: center;
     padding-top: 4%;
     color: white;    
-    text-shadow: 1px 1px black;
 }
 .photo-section {
     display: flex;
