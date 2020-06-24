@@ -91,7 +91,7 @@ nav .links {
 }
 .title-section h3{
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 0.5%;
 }
 .title-text{
@@ -130,7 +130,7 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     width: 100%;
-    background-color: #E5989B;
+    background-color: #c4787b;
 }
 .footer-div {
     height: 3%;
@@ -152,7 +152,7 @@ footer {
 .icons img{
     display: flex;
     justify-content: space-evenly;
-    background-color:#E5989B;
+    background-color:#c4787b;
     width: 80%;
 }
 a {
@@ -221,6 +221,9 @@ a {
     text-decoration:underline;
     padding: 2px;
     font-family: DauphinPlain;
+}
+.about-section p{
+    font-size: 2vw;
 }
 /* .about-section img:hover{
     max-width: 300%;
