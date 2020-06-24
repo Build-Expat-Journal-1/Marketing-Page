@@ -71,12 +71,12 @@ nav .links {
 }
 .links a{
     padding: 0 1%;
-    color: blue;
-    text-shadow: 1px 1px white;    
+    color: white;
+    text-shadow: 1px 1px maroon;    
 }
 .links a:hover{
-    color: white;
-    text-shadow: 2px 2px blue;
+    color: maroon;
+    text-shadow: 1px 1px white;
 }
 .title-section {
     width: 100%;
@@ -141,12 +141,12 @@ footer {
     padding-bottom: 2%;
 }
 .footer-div a{
-    color: blue;
-    text-shadow: 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px maroon;
 }
 .footer-div a:hover{
-    color: white;
-    text-shadow: 2px 2px blue;
+    color: maroon;
+    text-shadow: 1px 1px white;
 }
 .icons{
     color:#FF0000;
