@@ -127,18 +127,21 @@ nav .links {
 .flip-card {
     background-color: transparent;
     max-width: 20vh;
-    max-height: 20vh;
+    max-height: 30vh;
     object-fit: contain;
     margin: 0 4%;
     border: 1px solid white;
     perspective: 40rem;
     padding: 1% 8%;
   }
-  
+  .flip-card-front > img{ /*keeps the image inside the card*/
+    max-width: 100%;
+    height: auto;
+}  
   .flip-card-inner {
     position: relative;
     width: 20vh;
-    height: 20vh;
+    height: 30vh;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -152,7 +155,7 @@ nav .links {
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 20vh;
-    height: 20vh;
+    height: 30vh;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
