@@ -106,29 +106,33 @@ nav .links {
     padding-top: 4%;
     color: white;    
 }
+
 .photo-section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
-    padding-top: 1%;
+    justify-content: space-around;
+    width: 80%;
     text-align: center;
     background-color: rgb(47, 47, 47);
     color: white;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+    grid-column-gap: 1rem;
+    padding: 2% 0 1.5% 0;
+    margin-left: 10%;
 }
 .flip-card {
     background-color: transparent;
     max-width: 20vh;
     max-height: 30vh;
     object-fit: contain;
-    margin: 0 4%;
     border: 1px solid white;
     perspective: 40rem;
-    padding: 1% 8%;
+    margin: 1% 0 3% 0;
   }
-  .flip-card-front > img{ /*keeps the image inside the card*/
+  .flip-card-front > img{
     max-width: 100%;
     height: auto;
 }  
@@ -163,14 +167,10 @@ nav .links {
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
-  /* }
-.photoGrid img{
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    margin: 0 4%;
-    border: 1px solid white;
-} */
+  }
+  .flip-card-front p{
+      color: white;
+  }
 footer {
     display: flex;
     justify-content: space-around;
