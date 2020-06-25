@@ -110,19 +110,13 @@ nav .links {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     padding-top: 1%;
     text-align: center;
     background-color: rgb(47, 47, 47);
     color: white;
-}
-.photoGrid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 22%;
-    justify-content: center;
-    margin: 1% auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 .flip-card {
     background-color: transparent;
