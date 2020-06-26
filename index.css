@@ -110,14 +110,13 @@ nav .links {
     display: flex;
     justify-content: center;
     width: 100%;
-    border: 2px solid white;
 }
 .photo-section {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     text-align: center;
     background-color: rgb(47, 47, 47);
     color: white;
@@ -128,6 +127,8 @@ nav .links {
     padding: 2% 0 1.5% 0;
 }
 .flip-card {
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     max-width: 20vh;
     max-height: 30vh;
@@ -141,6 +142,8 @@ nav .links {
     height: auto;
 }  
   .flip-card-inner {
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 20vh;
     height: 30vh;
@@ -155,6 +158,8 @@ nav .links {
   }
   
   .flip-card-front, .flip-card-back {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 20vh;
     height: 30vh;
@@ -222,29 +227,21 @@ h5{
 }
 
 @media (min-width: 100px) {
-    .photoGrid {
-        width: 100%;      
-    }
+    
 }
 @media (min-width: 576px) {
-    .photoGrid {
-        width: 100%;      
+    .flip-card {
+        height: 400px;      
     }
 }
 @media (min-width: 768px) {
-    .photoGrid {
-        width: 50%;      
-    }
+    
 }
 @media (min-width: 992px) {
-    .photoGrid {
-        width: 25%;      
-    }
+    
 }
 @media (min-width: 1200px) {
-    .photoGrid {
-        width: 25%;      
-    }
+    
 }
 
 /*~~~~~~~About Section Styling~~~~~~~ */
@@ -306,14 +303,6 @@ h5{
     font-size: 2vw;
     margin-top: 1%;
 }
-/* .about-section img:hover{
-    max-width: 300%;
-    max-height: 300%;
-    position:relative;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    -moz-transition: 0.3s;
-} */
 
 /*~~~~~~~FAQ Section Styling~~~~~~~ */
 .QnA {

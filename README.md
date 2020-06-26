@@ -6,7 +6,7 @@ A readme for the Expat's Journal website
 
 ---
 
-Welcome to Expat's Journal.  In order to use this site you must first sign up using our sign up link on the home page. After signing up, simply login from home page to start sharing your photos.
+Welcome to Expat's Journal.  In order to use this site you must first sign up using our sign up link on the home page. After signing up, simply login from the home page to start sharing your photos.
 
 ---
 
