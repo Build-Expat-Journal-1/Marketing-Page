@@ -59,14 +59,10 @@ div .header-icon {
     text-align: center;
     margin: 1 38%;
 }
-nav{    
+nav{
     text-align: center;
 }
 nav .links {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 25%;
-    text-align: center;
     font-size: 1.7rem;
 }
 .links a{
@@ -283,6 +279,7 @@ h5{
     align-items: center;
     text-align: center;
     padding-left: 27.2%;
+    padding-bottom: 3%;
 }
 .about-section img{
     max-width: 50%;
