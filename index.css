@@ -113,8 +113,6 @@ nav .links {
 }
 .photo-section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-around;
     width: 100%;
     text-align: center;
