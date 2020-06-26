@@ -101,7 +101,7 @@ nav .links {
     text-align: center;
     padding-top: 4%;
     color: white; 
-    font-style: italic;   
+    font-style: italic;
 }
 .photo-container{
     display: flex;
@@ -174,7 +174,9 @@ nav .links {
       color: white;
   }
   .flip-card-back p{
-      padding-top: 60%;
+      font-size: 1.2rem;
+      padding-top: 60%;     
+      text-shadow: 1px 1px black;
   }
 footer {
     display: flex;
@@ -234,7 +236,7 @@ h5{
         grid-template-columns: auto auto;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     .photo-section{
         grid-template-columns: auto auto auto auto;
     }    
