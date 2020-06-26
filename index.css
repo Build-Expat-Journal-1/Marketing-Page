@@ -223,24 +223,6 @@ h5{
     color: blue;
     font-weight: bold;
 }
-@media (min-width: 100px){
-        .photo-section{
-            flex-direction: column;
-            grid-template-columns: auto;
-        }
-    }
-
-@media (min-width: 500px) {
-    .photo-section{
-        flex-direction: column;
-        grid-template-columns: auto auto;
-    }
-}
-@media (min-width: 1100px) {
-    .photo-section{
-        grid-template-columns: auto auto auto auto;
-    }    
-}
 
 /*~~~~~~~About Section Styling~~~~~~~ */
 
@@ -332,4 +314,26 @@ h5{
     font-size: 1.5rem;
     color: white;
     text-shadow: 1px 1px black;
+}
+
+/*~~~~~~~~~~~~~~~~~~~Breakpoints~~~~~~~~~~~~~~~~~~~~~*/
+
+
+@media (min-width: 100px){
+    .photo-section{
+        flex-direction: column;
+        grid-template-columns: auto;
+    }
+}
+
+@media (min-width: 500px) {
+.photo-section{
+    flex-direction: column;
+    grid-template-columns: auto auto;
+}
+}
+@media (min-width: 1100px) {
+.photo-section{
+    grid-template-columns: auto auto auto auto;
+}    
 }
