@@ -104,19 +104,20 @@ nav .links {
 .title-text{
     text-align: center;
     padding-top: 4%;
-    color: white;    
+    color: white; 
+    font-style: italic;   
 }
 .photo-container{
     display: flex;
     justify-content: center;
     width: 100%;
+    background-color: rgb(47, 47, 47);
 }
 .photo-section {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     text-align: center;
-    background-color: rgb(47, 47, 47);
     color: white;
     display: grid;
     grid-template-columns: auto auto auto auto;
