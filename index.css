@@ -130,7 +130,7 @@ nav .links {
     max-width: 20vh;
     max-height: 30vh;
     object-fit: contain;
-    border: 1px solid white;
+    border: 2px solid white;
     perspective: 40rem;
     margin: 1% 0 3% 0;
   }
